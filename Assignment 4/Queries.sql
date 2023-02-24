@@ -83,7 +83,6 @@ SELECT Count(*) FROM Emp_Table WHERE Sal >= 10000
  SELECT * from Emp_Table WHERE Ename LIKE 'S%'
 
 
-
 /*22) Get the details of the employees who works in Bangalore location*/
  SELECT * FROM Emp_Table E, Dept_Table D WHERE E.DeptNo= D.DeptNo AND D.Loc = “Bangalore 
 
